@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
 import FeaturesImage1 from '../images/giants/jeff-ackley-5aLKRDQ026o-unsplash.jpg';
-import FeaturesImage2 from '../images/giants/jeff-ackley-1porSdcau2k-unsplash.jpg';
+import FeaturesImage2 from '../images/giants/bottle-g9f334810a_1920.jpg';
 
 function FeaturesHome02() {
 
@@ -51,7 +51,7 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto h-42 rounded" src={FeaturesImage1} width="400" height="320" alt="Features home 2 01" />
+                    <img className="w-[400] h-[140] mx-auto rounded" src={FeaturesImage1} alt="Features home 2 01" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -67,7 +67,7 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto h-42 rounded" src={FeaturesImage2} width="390" height="310" alt="Features home 2 02" />
+                    <img className="w-[400] h-[140] mx-auto rounded" src={FeaturesImage2} alt="Features home 2 02" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -83,7 +83,7 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src="https://cdn.pixabay.com/photo/2013/01/30/15/28/family-76782_960_720.jpg" width="540" height="620" alt="Features home 2 03" />
+                    <img className="w-[400] h-[140] mx-auto rounded" src="https://cdn.pixabay.com/photo/2013/01/30/15/28/family-76782_960_720.jpg" alt="Features home 2 03" />
                   </div>
                 </Transition>                
               </div>
