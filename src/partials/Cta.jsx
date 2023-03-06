@@ -5,7 +5,7 @@ function Cta() {
   return (
     <section className="">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="">
 
           <div className="relative max-w-3xl mx-auto text-center">
 
@@ -16,11 +16,10 @@ function Cta() {
             </div>
 
             <div className="relative">
-              <h2 className="h2 font-playfair-display text-slate-800 mb-4">Say goodbye to long queues, big updates, and <span className="text-emerald-500">confusion</span>.</h2>
-              <p className="text-xl text-slate-500 mb-8">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+              <h2 className="h2 font-playfair-display text-slate-800 mb-4">Together, we can bring clean water and sustainable solutions to<span className="text-emerald-500"> communities in Africa</span>.</h2>
               <div>
-                <Link className="btn text-white bg-orange-500 hover:bg-black group" to="/request-demo">
-                  Join Us
+                <Link className="btn text-white shadow-md bg-orange-500 hover:bg-black group" to="/request-demo">
+                  Get Involved
                 </Link>
               </div>
             </div>
