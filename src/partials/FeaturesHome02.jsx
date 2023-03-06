@@ -40,7 +40,7 @@ function FeaturesHome02() {
               <div className="relative flex flex-col">
                 {/* Item 1 */}
                 <Transition
-                  show={tab === 1}
+                  show={tab == 1}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"
@@ -51,12 +51,12 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="w-[400] h-[140] mx-auto rounded" src={FeaturesImage1} alt="Features home 2 01" />
+                    <img className="mx-auto rounded" width="390" height="210" src={FeaturesImage1} alt="Features home 2 01" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
                 <Transition
-                  show={tab === 2}
+                  show={tab == 2}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"
@@ -72,7 +72,7 @@ function FeaturesHome02() {
                 </Transition>
                 {/* Item 3 */}
                 <Transition
-                  show={tab === 3}
+                  show={tab == 3}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"
