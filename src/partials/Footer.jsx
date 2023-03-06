@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logofooter from '../images/giants/artboard.jpg'
+import Logofooter from '../images/giants/logo.png'
 
 
   function Footer() {
@@ -26,20 +26,15 @@ import Logofooter from '../images/giants/artboard.jpg'
               title="Company"
               className="inline-flex items-center"
             >
-           <img src={Logofooter} className="w-24 h-24" alt='logo' />
+           <img src={Logofooter} className="w-28 h-28" alt='logo' />
             </a>
             <div className="mt-4 lg:max-w-sm">
               <p className="text-sm text-white">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
-              </p>
-              <p className="mt-4 text-sm text-white">
-                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </p>
+              Our mission is to empower communities in Africa to access clean and safe water by providing technical assistance, resources, and education. We strive to identify and address the root causes of the water crisis and work with communities to establish sustainable solutions.
+             </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-3 md:grid-cols-3">
             <div>
               <p className="font-semibold tracking-wide text-white">
                 FOUNDATION
@@ -74,7 +69,7 @@ import Logofooter from '../images/giants/artboard.jpg'
                     href="/"
                     className="transition-colors duration-300 text-white hover:text-teal-accent-400"
                   >
-                    References
+                    Get Involved
                   </a>
                 </li>
               </ul>
