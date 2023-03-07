@@ -82,7 +82,7 @@ function Header({
              
               <li>
                 <Link to="/" className="font-medium shadow-sm btn bg-orange-500 text-white  px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out group">
-                  Donate           
+                  Support us Today           
                 </Link>
               </li>
             </ul>
@@ -137,7 +137,7 @@ function Header({
                   </li>                                                    
                   
                   <li>
-                    <Link to="/" className="btn bg-orange-500 font-medium w-full text-white py-2">Donate</Link>
+                    <Link to="/" className="btn bg-orange-500 font-medium w-full text-white py-2">Support us Today</Link>
                   </li>
                  
                 </ul>
