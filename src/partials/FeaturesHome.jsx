@@ -25,9 +25,8 @@ function FeaturesHome() {
           <div className="px-4 py-16">
      
       <div className="grid gap-5 row-gap-5 mb-8 lg:grid-cols-3 sm:grid-cols-2">
-        <a
-          href="/"
-          aria-label="View Item"
+        <div
+         
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
@@ -44,21 +43,11 @@ function FeaturesHome() {
                 <p className="text-sm text-gray-900">
                 We are on a mission to enable community have access to clean water as this will help communities to lift themselves out of poverty and build brighter future for the young ones. It is a sad reality that over 771 million people globally don’t have access to clean water. 
                 </p>
-                <div className="text-center">
-        <a
-          href="/"
-          className="inline-flex items-center mt-5 justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-orange-500 hover:bg-black focus:shadow-outline focus:outline-none"
-        >
-          Learn more
-        </a>
-      </div>
               </div>
             </div>
           </div>
-        </a>
-        <a
-          href="/"
-          aria-label="View Item"
+        </div>
+        <div
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
           <div className="flex flex-col h-full">
@@ -76,17 +65,11 @@ function FeaturesHome() {
                 We strive to identify and address the root causes of the water crisis and work with communities to establish sustainable solutions. Our goal is to improve health, increase economic opportunities, and enhance the overall quality of life.
                 </p>
                 <div className="text-center">
-        <a
-          href="/"
-          className="inline-flex items-center mt-5 justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-orange-500 hover:bg-black focus:shadow-outline focus:outline-none"
-        >
-          Learn more
-        </a>
       </div>
               </div>
             </div>
           </div>
-        </a>
+        </div>
         <div
           className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
         >
@@ -103,12 +86,7 @@ function FeaturesHome() {
                 Are you looking for a meaningful way to give back to your community? Consider volunteering with our foundation! We are always looking for passionate and dedicated individuals to help us make a difference in the lives of those we serve.
                 </p>
                 <div className="text-center">
-        <a
-          href="/"
-          className="inline-flex items-center mt-5 justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-orange-500 hover:bg-black focus:shadow-outline focus:outline-none"
-        >
-          Learn more
-        </a>
+      
       </div>
               </div>
             </div>
