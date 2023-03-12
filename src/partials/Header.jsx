@@ -64,16 +64,16 @@ function Header({
             {/* Desktop menu links */}
             <ul className="flex grow justify-start flex-wrap items-center">
               <li>
-                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Impact</Link>
+                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Home</Link>
               </li>
               <li>
-                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our work</Link>
+                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About Us</Link>
               </li>
               <li>
-                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"> About us</Link>
+                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our Projects </Link>
               </li>      
               <li>
-                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact</Link>
+                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact Us</Link>
               </li>
             </ul>
 
