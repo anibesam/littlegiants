@@ -38,7 +38,7 @@ function HeroHome() {
                     className="btn text-white bg-orange-500 hover:bg-slate-800 w-full"
                     to="#0"
                   >
-                    Support Foundation
+                    Support our Foundation
                   </Link>
                 </div>
               </div>
