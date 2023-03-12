@@ -51,7 +51,7 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="mx-auto w-[550px] h-[450px] rounded" src={FeaturesImage1} alt="Features home 2 01" />
+                    <img className="mx-auto w-[1000px] h-[750px] rounded" src={FeaturesImage1} alt="Features home 2 01" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
