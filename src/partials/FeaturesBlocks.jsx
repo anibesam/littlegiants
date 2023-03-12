@@ -1,5 +1,5 @@
 import React from "react";
-import cleanImage from "../images/giants/clean.jpg";
+import cleanImage from "../images/giants/iStock-490824286-944x600.jpeg";
 
 function FeaturesBlocks() {
   return (
