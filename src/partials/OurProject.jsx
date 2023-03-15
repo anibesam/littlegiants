@@ -86,13 +86,14 @@ function OurProject() {
                   <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                     Garatu Water Project
                   </h2>
-                  <p className="mt-6 text-4xl font-medium leading-8 text-gray-100">
+                  <p className="mt-6 mb-5 text-4xl font-medium leading-8 text-gray-100">
                     Community Access to Clean Water.
                   </p>
+                  <br/>
                 </div>
                 <button
         type="button"
-        className="rounded-full bg-orange-500 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        className=" bg-orange-500 ml-5 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       >
         Support our Foundation
       </button>
@@ -164,10 +165,11 @@ function OurProject() {
                   <p className="mt-6 text-4xl font-medium leading-8 text-gray-100">
                     An Educational outreach.
                   </p>
+                  <br/>
                 </div>
                 <button
         type="button"
-        className="rounded-full bg-orange-500 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        className=" bg-orange-500 ml-5 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       >
         Support our Foundation
       </button>
@@ -232,17 +234,18 @@ function OurProject() {
                 </defs>
               </svg>
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="bg-black bg-opacity-50  mx-auto max-w-2xl lg:mx-0">
+                <div className="bg-black bg-opacity-50 mb-10  mx-auto max-w-2xl lg:mx-0">
                   <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                     LIGI Schools Project
                   </h2>
                   <p className="mt-6 text-4xl font-medium leading-8 text-gray-100">
                     Reaching out Schools to Access Clean Water.
                   </p>
+                  <br/>
                 </div>
                 <button
         type="button"
-        className="rounded-full bg-orange-500 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        className=" bg-orange-500 ml-5 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       >
         Support our Foundation
       </button>
