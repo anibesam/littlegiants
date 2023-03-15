@@ -14,7 +14,7 @@ function FeaturesBlocks() {
             />
           </div>
           <div className="lg:pr-10">
-            <h5 className="mb-4 text-4xl font-extrabold leading-none">
+            <h5 className="mb-4 text-3xl font-extrabold leading-none">
               Little Giants (“LiGi”) Foundation
             </h5>
             <p className="mb-6 text-gray-900">
