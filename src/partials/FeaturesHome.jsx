@@ -17,7 +17,7 @@ function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Access to clean and safe water</h2>
+            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Access to Clean and Safe Water</h2>
             <p className="text-xl text-slate-768">We are assisting individuals and communities in poor remote areas in Africa to identify, develop and establish a sustainable source of clean water. </p>
           </div>
 
