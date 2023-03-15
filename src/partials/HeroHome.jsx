@@ -25,7 +25,7 @@ function HeroHome() {
               data-aos="fade-right"
             >
               <h1 className="h1 font-playfair-display text-white mb-4">
-                Access to clean water Advocates
+                Access to Clean Water Advocates
               </h1>
               <p className="text-xl text-gray-100 mb-8">
                 We are empowering communities in Africa to access clean
