@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesImage1 from '../images/giants/jeff-ackley-5aLKRDQ026o-unsplash.jpg';
+import FeaturesImage1 from '../images/giants/Wishwell.jpeg';
 import FeaturesImage2 from '../images/giants/bottle-g9f334810a_1920.jpg';
 
 function FeaturesHome02() {
