@@ -234,15 +234,19 @@ function OurProject() {
                 </defs>
               </svg>
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="bg-black bg-opacity-50 mb-10  mx-auto max-w-2xl lg:mx-0">
-                  <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                    LIGI Schools Project
-                  </h2>
-                  <p className="mt-6 text-4xl font-medium leading-8 text-gray-100">
-                    Reaching out Schools to Access Clean Water.
-                  </p>
-                  <br/>
+              <div className="bg-black bg-opacity-50 mx-auto max-w-2xl lg:mx-0 m-4 mt-8 mb-8 ml-2 mr-2">
+                <div className="m-4 mt-8 mb-8 ml-2 mr-2">
+                <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+    LIGI Schools Project
+  </h2>
+  <p className="mt-6 ml-2 mr-2 text-4xl font-medium leading-8 text-gray-100">
+    Reaching out Schools to Access Clean Water.
+  </p>
+  <br />
                 </div>
+  
+</div>
+
                 <button
         type="button"
         className=" bg-orange-500 ml-5 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
