@@ -6,6 +6,7 @@ import FeaturesBlocks from '../partials/FeaturesBlocks';
 import FeaturesHome from '../partials/FeaturesHome';
 import FeaturesHome02 from '../partials/FeaturesHome02';
 import FeaturesHome03 from '../partials/FeaturesHome03';
+import OurProject from '../partials/OurProject';
 import Target from '../partials/Target';
 import PricingSection from '../partials/PricingSection';
 import Cta from '../partials/Cta';
@@ -25,6 +26,7 @@ function Home() {
         <HeroHome />
         <FeaturesBlocks />
         <FeaturesHome />
+        <OurProject/>
         <FeaturesHome02 />
         <Target />
         <Cta />
