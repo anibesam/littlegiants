@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesImage1 from '../images/giants/Wishwell.jpeg';
-import FeaturesImage2 from '../images/giants/bottle-g9f334810a_1920.jpg';
+import donate from '../images/giants/donate.jpg';
+import  volunteer from '../images/giants/volunteer.jpg';
+import  event from '../images/giants/event.jpg';
 
 function FeaturesHome02() {
 
@@ -51,7 +52,7 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="mx-auto w-[1000px] h-[750px] rounded" src={FeaturesImage1} alt="Features home 2 01" />
+                    <img className="" height="500" src={donate} alt="kids" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -67,7 +68,7 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="w-[400] h-[140] mx-auto rounded" src={FeaturesImage2} alt="Features home 2 02" />
+                    <img className=""  height="500" src={volunteer} alt="Features home 2 02" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -83,8 +84,8 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="w-[400] h-[140] mx-auto rounded" src="https://cdn.pixabay.com/photo/2013/01/30/15/28/family-76782_960_720.jpg" alt="Features home 2 03" />
-                  </div>
+                  <img className=""  height="500" src={event} alt="event" />
+                     </div>
                 </Transition>                
               </div>
             </div>
