@@ -29,7 +29,7 @@ function FeaturesHome02() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">Impact and sustaining the vision</h2>
+            <h2 className="h2 font-playfair-display text-slate-800">Impact and Sustaining the Vision</h2>
           </div>
 
           {/* Section content */}
