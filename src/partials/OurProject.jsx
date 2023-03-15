@@ -90,6 +90,12 @@ function OurProject() {
                     Community Access to Clean Water.
                   </p>
                 </div>
+                <button
+        type="button"
+        className="rounded-full bg-orange-500 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+      >
+        Support our Foundation
+      </button>
               </div>
             </div>
           </div>
@@ -159,6 +165,12 @@ function OurProject() {
                     An Educational outreach.
                   </p>
                 </div>
+                <button
+        type="button"
+        className="rounded-full bg-orange-500 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+      >
+        Support our Foundation
+      </button>
               </div>
             </div>
           </div>
@@ -228,6 +240,12 @@ function OurProject() {
                     Reaching out Schools to Access Clean Water.
                   </p>
                 </div>
+                <button
+        type="button"
+        className="rounded-full bg-orange-500 py-3.5 mt-10 px-3.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+      >
+        Support our Foundation
+      </button>
               </div>
             </div>
           </div>
