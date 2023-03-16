@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Cta() {
   return (
-    <section className="">
+    <section className="mb-10">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="">
 
