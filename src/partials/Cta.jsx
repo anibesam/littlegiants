@@ -18,7 +18,7 @@ function Cta() {
             <div className="relative">
               <h2 className="h2 font-playfair-display text-slate-800 mb-4">Together, we can bring clean water and sustainable solutions to<span className="text-emerald-500"> communities in Africa</span>.</h2>
               <div>
-                <Link className="btn text-white shadow-md bg-orange-500 hover:bg-black group" to="#">
+                <Link className="btn text-white shadow-md bg-orange-500 hover:bg-black group" to="/contact-us">
                   Support our Foundation
                 </Link>
               </div>
