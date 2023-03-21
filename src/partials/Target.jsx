@@ -25,7 +25,7 @@ function Target() {
               </blockquote>
               <figcaption className="mt-10 flex items-center gap-x-6">
                 <div className="text-base">
-                  <div className="font-semibold text-gray-900">Judith Doe</div>
+                  <div className="font-semibold text-gray-900">Dovian Ukanga</div>
                   </div>
               </figcaption>
             </figure>
@@ -41,7 +41,7 @@ function Target() {
               </blockquote>
               <figcaption className="mt-10 flex items-center gap-x-6">
                 <div className="text-base">
-                  <div className="font-semibold text-gray-900">Joseph Doe</div>
+                  <div className="font-semibold text-gray-900">Joseph Daniels</div>
                 </div>
               </figcaption>
             </figure>
