@@ -11,7 +11,7 @@ const people = [
     role: "Co-Founder",
     bio: "Jun developed his passion for sanitation and hygiene during the pandemic in 2022. Inspired by their joint travels to Nigeria, he began to realize access to safe water and sanitation was the answer to a bright future for the families he met in villages – a future with more hope, health and possibilities.",
     Quote:
-      "“Together, we can bring clean water and sustainable solutions to communities in Africa.”",
+      `“Together, we can bring clean water and sustainable solutions to communities in Africa."`,
   },
 
   // More people...
@@ -44,8 +44,7 @@ function TeamMembers() {
               </p>
               <ul role="list" className="mt-6 flex gap-x-6">
                 <li>
-                  “You cannot solve poverty without solving water and
-                  sanitation.”
+                  {person.Quote}
                 </li>
               </ul>
             </li>
