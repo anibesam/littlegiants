@@ -1,106 +1,58 @@
-import React from 'react';
+import React from "react";
+const people = [
+  {
+    name: "Hayul “Yul” Kim",
+    role: "Co-Founder",
+    bio: "Yul has a long term interest in poverty alleviation. The idea to create a water empowerment charity first occurred to him about 1 year ago, when he first visited Lagos, Nigeria. He has a strong passion for ending the global water crisis.",
+    Quote: "“You cannot solve poverty without solving water and sanitation.”",
+  },
+  {
+    name: "Hajun “Jun” Kim",
+    role: "Co-Founder",
+    bio: "Jun developed his passion for sanitation and hygiene during the pandemic in 2022. Inspired by their joint travels to Nigeria, he began to realize access to safe water and sanitation was the answer to a bright future for the families he met in villages – a future with more hope, health and possibilities.",
+    Quote:
+      "“Together, we can bring clean water and sustainable solutions to communities in Africa.”",
+  },
 
-import TeamMemberImage01 from '../images/team-member-01.jpg';
-import TeamMemberImage02 from '../images/team-member-02.jpg';
-import TeamMemberImage03 from '../images/team-member-03.jpg';
-import TeamMemberImage04 from '../images/team-member-04.jpg';
-import TeamMemberImage05 from '../images/team-member-05.jpg';
-import TeamMemberImage06 from '../images/team-member-06.jpg';
-import TeamMemberImage07 from '../images/team-member-07.jpg';
-import TeamMemberImage08 from '../images/team-member-08.jpg';
+  // More people...
+];
 
 function TeamMembers() {
   return (
-    <section>
-
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
-
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">What do we value? All sorts of things!</h2>
-          </div>
-
-          {/* Team members */}
-          <div className="relative max-w-sm mx-auto grid gap-y-12 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-y-20 items-start sm:max-w-xl lg:max-w-none" data-aos-id-team>
-
-            {/* 1st member */}
-            <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]">
-              <div className="inline-flex mb-4">
-                <img className="rounded-full" src={TeamMemberImage01} width="120" height="120" alt="Member 01" />
-              </div>
-              <h4 className="h4 font-playfair-display text-slate-800 mb-2">Mark Lamprecht</h4>
-              <div className="font-medium text-blue-600">CEO &amp; Co-founder</div>
-            </div>
-
-            {/* 2nd member */}
-            <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={100}>
-              <div className="inline-flex mb-4">
-                <img className="rounded-full" src={TeamMemberImage02} width="120" height="120" alt="Member 02" />
-              </div>
-              <h4 className="h4 font-playfair-display text-slate-800 mb-2">Elisa Nguyen</h4>
-              <div className="font-medium text-blue-600">Co-Founder, Lead Engineer</div>
-            </div>
-
-            {/* 3rd member */}
-            <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={200}>
-              <div className="inline-flex mb-4">
-                <img className="rounded-full" src={TeamMemberImage03} width="120" height="120" alt="Member 03" />
-              </div>
-              <h4 className="h4 font-playfair-display text-slate-800 mb-2">Travis Stephens</h4>
-              <div className="font-medium text-blue-600">Senior Software Engineer</div>
-            </div>
-
-            {/* 4th member */}
-            <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={300}>
-              <div className="inline-flex mb-4">
-                <img className="rounded-full" src={TeamMemberImage04} width="120" height="120" alt="Member 04" />
-              </div>
-              <h4 className="h4 font-playfair-display text-slate-800 mb-2">Cameron Mckay</h4>
-              <div className="font-medium text-blue-600">Senior UX/UI Designer</div>
-            </div>
-
-            {/* 5th member */}
-            <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={400}>
-              <div className="inline-flex mb-4">
-                <img className="rounded-full" src={TeamMemberImage05} width="120" height="120" alt="Member 05" />
-              </div>
-              <h4 className="h4 font-playfair-display text-slate-800 mb-2">Patricia Curnock</h4>
-              <div className="font-medium text-blue-600">Software Engineer</div>
-            </div>
-
-            {/* 6th member */}
-            <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={500}>
-              <div className="inline-flex mb-4">
-                <img className="rounded-full" src={TeamMemberImage06} width="120" height="120" alt="Member 06" />
-              </div>
-              <h4 className="h4 font-playfair-display text-slate-800 mb-2">Amanda Danish</h4>
-              <div className="font-medium text-blue-600">Business Development</div>
-            </div>
-
-            {/* 7th member */}
-            <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={600}>
-              <div className="inline-flex mb-4">
-                <img className="rounded-full" src={TeamMemberImage07} width="120" height="120" alt="Member 07" />
-              </div>
-              <h4 className="h4 font-playfair-display text-slate-800 mb-2">Zoltan Jackson</h4>
-              <div className="font-medium text-blue-600">Marketing Manager</div>
-            </div>
-
-            {/* 8th member */}
-            <div className="text-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-team]" data-aos-delay={700}>
-              <div className="inline-flex mb-4">
-                <img className="rounded-full" src={TeamMemberImage08} width="120" height="120" alt="Member 08" />
-              </div>
-              <h4 className="h4 font-playfair-display text-slate-800 mb-2">Sara Tolinski</h4>
-              <div className="font-medium text-blue-600">Community Manager</div>
-            </div>
-
-          </div>
-
+    <div className="bg-slate-100 py-24 md:py-32 lg:py-40">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-20 gap-x-8 px-6 lg:px-8 xl:grid-cols-3">
+        <div className="mx-auto max-w-2xl lg:mx-0">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Meet Our Team
+          </h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            We’re a dynamic group of individuals who are passionate about creating access to clean water in Africa..
+          </p>
         </div>
+        <ul
+          role="list"
+          className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-8 xl:col-span-2"
+        >
+          {people.map((person) => (
+            <li key={person.name}>
+              <h3 className="mt-6 text-lg font-semibold leading-8 text-gray-900">
+                {person.name}
+              </h3>
+              <p className="text-base leading-7 text-gray-600">{person.role}</p>
+              <p className="mt-4 text-base leading-7 text-gray-600">
+                {person.bio}
+              </p>
+              <ul role="list" className="mt-6 flex gap-x-6">
+                <li>
+                  “You cannot solve poverty without solving water and
+                  sanitation.”
+                </li>
+              </ul>
+            </li>
+          ))}
+        </ul>
       </div>
-    </section>
+    </div>
   );
 }
 
