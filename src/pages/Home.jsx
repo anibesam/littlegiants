@@ -5,12 +5,11 @@ import HeroHome from '../partials/HeroHome';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
 import FeaturesHome from '../partials/FeaturesHome';
 import FeaturesHome02 from '../partials/FeaturesHome02';
-import FeaturesHome03 from '../partials/FeaturesHome03';
 import OurProject from '../partials/OurProject';
 import Target from '../partials/Target';
-import PricingSection from '../partials/PricingSection';
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
+import OurInspiration from '../partials/OurInspiration';
 
 function Home() {
   return (
@@ -26,6 +25,7 @@ function Home() {
         <HeroHome />
         <FeaturesBlocks />
         <FeaturesHome />
+        <OurInspiration/>
         <OurProject/>
         <FeaturesHome02 />
         <Target />
