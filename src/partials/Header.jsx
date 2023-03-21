@@ -67,13 +67,13 @@ function Header({
                 <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Home</Link>
               </li>
               <li>
-                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About Us</Link>
+                <Link to="/about-us" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About Us</Link>
               </li>
               <li>
-                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our Projects </Link>
+                <Link to="/our-projects" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Our Projects </Link>
               </li>      
               <li>
-                <Link to="/" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact Us</Link>
+                <Link to="/contact-us" className="font-medium text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact Us</Link>
               </li>
             </ul>
 
@@ -81,7 +81,7 @@ function Header({
             <ul className="flex grow justify-end flex-wrap items-center">
              
               <li>
-                <Link to="/" className="font-medium shadow-sm btn bg-orange-500 text-white  px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out group">
+                <Link to="/contact-us" className="font-medium shadow-sm btn bg-orange-500 text-white  px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out group">
                   Support us Today           
                 </Link>
               </li>
@@ -124,20 +124,20 @@ function Header({
               >
                 <ul className="px-5 py-2">
                   <li>
-                    <Link to="/" className="flex font-medium text-black hover:text-blue-600 py-2">Impact</Link>
+                    <Link to="/" className="flex font-medium text-black hover:text-blue-600 py-2">Home</Link>
                   </li>
                   <li>
-                    <Link to="/" className="flex font-medium text-black hover:text-blue-600 py-2">Our work</Link>
+                    <Link to="/about-us" className="flex font-medium text-black hover:text-blue-600 py-2">About Us</Link>
                   </li>
                   <li>
-                    <Link to="/" className="flex font-medium text-black hover:text-blue-600 py-2">About</Link>
+                    <Link to="/our-projects" className="flex font-medium text-black hover:text-blue-600 py-2">Our Projects</Link>
                   </li>  
                   <li>
-                    <Link to="/" className="flex font-medium text-black hover:text-blue-600 py-2">Contact</Link>
+                    <Link to="/contact-us" className="flex font-medium text-black hover:text-blue-600 py-2">Contact Us</Link>
                   </li>                                                    
                   
                   <li>
-                    <Link to="/" className="btn bg-orange-500 font-medium w-full text-white py-2">Support us Today</Link>
+                    <Link to="/contact-us" className="btn bg-orange-500 font-medium w-full text-white py-2">Support us Today</Link>
                   </li>
                  
                 </ul>
