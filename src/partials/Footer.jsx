@@ -43,7 +43,7 @@ function Footer() {
                 <ul className="mt-2 space-y-2">
                   <li>
                     <a
-                      href="/"
+                      href="/about-us"
                       className="transition-colors duration-300 text-white hover:text-teal-accent-400"
                     >
                       About
@@ -51,7 +51,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/our-projects"
                       className="transition-colors duration-300 text-white hover:text-teal-accent-400"
                     >
                       Our Work
@@ -59,7 +59,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/our-projects"
                       className="transition-colors duration-300 text-white hover:text-teal-accent-400"
                     >
                       Imapact
@@ -67,7 +67,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/contact-us"
                       className="transition-colors duration-300 text-white hover:text-teal-accent-400"
                     >
                       Get Involved
@@ -107,7 +107,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/our-projects"
                       className="transition-colors duration-300 text-white"
                     >
                       Projects
@@ -125,7 +125,7 @@ function Footer() {
                       href="/"
                       className="transition-colors duration-300 text-white"
                     >
-                      Infopreneur
+                      Access to clean water
                     </a>
                   </li>
                   <li>
@@ -133,7 +133,7 @@ function Footer() {
                       href="/"
                       className="transition-colors duration-300 text-white"
                     >
-                      Personal
+                      Initiatives
                     </a>
                   </li>
                   <li>
@@ -141,7 +141,7 @@ function Footer() {
                       href="/"
                       className="transition-colors duration-300 text-white"
                     >
-                      Wiki
+                     Clean Water Awareness Program
                     </a>
                   </li>
                   <li>
@@ -149,7 +149,7 @@ function Footer() {
                       href="/"
                       className="transition-colors duration-300 text-white"
                     >
-                      Forum
+                      Educational Incentives
                     </a>
                   </li>
                 </ul>
