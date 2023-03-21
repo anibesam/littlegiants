@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeroImage from '../images/about-hero.jpg';
+import HeroImage from '../images/giants/_KIN2463.jpeg';
 import IntroImage from '../images/about-intro.jpg';
 
 function AboutHero() {
@@ -19,13 +19,14 @@ function AboutHero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-16">
-            <h1 className="h1 font-playfair-display text-slate-100">We're designing a new way to do business</h1>
+            <h1 className="h1 font-playfair-display text-slate-100">About LIGI Foundation</h1>
+            <p className='text-slate-100 max-w-2xl mt-3'>
+            “Do the difficult things while they are easy and do the great things while they are small.
+A journey of a thousand miles must begin with a single step.
+- Lao Tzu
+            </p>
           </div>
 
-          {/* Hero image */}
-          <div className="flex justify-center items-center" data-aos="fade-up" data-aos-delay="100">
-            <img className="mx-auto" src={IntroImage} width="1024" height="576" alt="About intro" />
-          </div>
 
         </div>
       </div>
