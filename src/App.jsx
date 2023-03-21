@@ -16,7 +16,7 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import WallOfLove from './pages/WallOfLove';
-import WallOfLoveSingle from './pages/WallOfLoveSingle';
+import WallOfLoveSingle from './pages/our-projects';
 import Support from './pages/Support';
 import SignIn from './pages/SignIn';
 import ResetPassword from './pages/ResetPassword';
@@ -46,16 +46,10 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog-post" element={<BlogPost />} />
-        <Route path="/wall-of-love" element={<WallOfLove />} />
-        <Route path="/wall-of-love-single" element={<WallOfLoveSingle />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/reset-password" element={<ResetPassword />} />
-        <Route path="/request-demo" element={<RequestDemo />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/our-projects" element={<WallOfLoveSingle />} />
+        <Route path="/contact-us" element={<Support />} />
+        
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>
